@@ -188,7 +188,8 @@ class metaspaceFetch():
                         lessOrEq_ResolvingPower: list = None,
                         lessOrEq_PixelSize_Xaxis: list = None,
                         lessOrEq_PixelSize_Yaxis: list = None,
-                        lessOrEq_mzValue: list = None):
+                        lessOrEq_mzValue: list = None,
+                        optical_images: False):
         
         '''
         Filter through a dataframe of datasets by the give arguments
